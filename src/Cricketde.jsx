@@ -42,5 +42,4 @@ function Cricketdet({ Name, innScore, score, avePercent, image , altText }) {
   );
 }
 
-
 export default Cricketdet;
