@@ -53,14 +53,19 @@ function Hooks() {
       <button
         onClick={() => {
           setfirst(first - 1);
+          if (first <= 0) {
+            setfirst((0));
+          } else if (isNaN(first)) {
+            setfirst(0);
+          }
         }}
       >
         Remove Count
       </button>
+
       <h2>Count : {first}</h2>
     </div>
   );
 }
-
 
 export default Hooks;
