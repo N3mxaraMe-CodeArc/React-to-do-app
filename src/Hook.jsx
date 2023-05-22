@@ -6,7 +6,7 @@ function Hooks() {
   useEffect(() => {
     console.log("Use effect is Working");
   })
-
+ 
   return (
     <div>
       <div>
