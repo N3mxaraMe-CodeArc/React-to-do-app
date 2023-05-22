@@ -40,6 +40,6 @@ function Cricketdet({ Name, innScore, score, avePercent, image , altText }) {
       </div>
     </div>
   );
-} 
+}  
 
 export default Cricketdet;
