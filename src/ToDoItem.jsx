@@ -1,31 +1,23 @@
 import { Button } from "@chakra-ui/react";
 import "./TODo.css";
 
-function ToDoItem() {
-
-  const TaskName = 'To-Do Item 1'
-  const BtnName = 'Btn Name'
+function ToDoItem({ taskName, btnName, btnColor }) {
   return (
-    <div style={{margin:"50px"}}>
-      <h3 style={{ marginBottom: "0" }}><span> Task : </span>{TaskName}</h3>
-      <Button className="btn"
+    <div style={{ margin: "50px" }}>
+      <h3 style={{ marginBottom: "0" }}>
+        <span> Task : </span>
+        {taskName}
+      </h3>
+      <Button
+        style={{ color: btnColor }}
+        className="btn"
         size="md"
         height="48px"
         width="200px"
-        borderWidth="2px" 
+        borderWidth="2px"
         borderColor="green.500"
       >
-        {BtnName}
-      </Button>
-      <h3>Task 02</h3>
-      <Button className="btn"
-        size="md"
-        height="48px"
-        width="200px"
-        borderWidth="2px" 
-        borderColor="green.500"
-      >
-        ToDo
+        {btnName}
       </Button>
     </div>
   );
