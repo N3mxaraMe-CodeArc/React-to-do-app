@@ -2,7 +2,10 @@ import { useState, useEffect } from "react";
 
 function Hooks() {
   const [BodyText, setBodyText] = useState("Users");
-  
+
+  useEffect(() => {
+    console.log("Use effect is Working");
+  })
 
   return (
     <div>
