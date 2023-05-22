@@ -8,8 +8,8 @@ function Hooks() {
         <div>
             <div>
                 <button>User</button>
-                <button>Profile</button>
-                <button>Account</button>
+                <button>Post</button>
+                <button>About us</button>
                 
             </div>
             <h1>{BodyText}</h1>
