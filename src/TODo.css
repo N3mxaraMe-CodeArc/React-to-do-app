@@ -1,0 +1,19 @@
+.btn{
+    cursor: pointer;
+    border-color: lightblue;
+    border-style: solid;
+    background-color: lightblue;
+    border-radius: 30px;
+    box-shadow: 0px 0px 2px 2px lightblue;
+    margin-top: 14px;
+    text-transform: capitalize;
+    font-weight: 800;
+    color: lightcoral;
+}
+
+.btn:hover{
+    color: white;
+    background-color: lightcoral;
+    box-shadow: 0px 0px 2px 2px lightcoral;
+    border-color: lightcoral;
+}
