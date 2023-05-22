@@ -11,7 +11,7 @@ function Mapping() {
     <div>
       <ul>{listItems}</ul>
     </div>
-  ); 
+  );
 }
 
 export default Mapping;
