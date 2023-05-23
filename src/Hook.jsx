@@ -5,8 +5,7 @@ function Hooks() {
   const [first, setfirst] = useState(0);
 
   useEffect(() => {
-    console.log("Use effect is Working");
-  });
+    console.log("Use effect is Working");},[]);
 
   return (
     <div
@@ -48,7 +47,7 @@ function Hooks() {
           setfirst(first + 1);
         }}
       >
-        Click Me
+        Add Count : {first}
       </button>
       <button
         onClick={() => {
@@ -60,7 +59,7 @@ function Hooks() {
           }
         }}
       >
-        Remove Count
+        Remove Count : {first}
       </button>
 
       <h2>Count : {first}</h2>
