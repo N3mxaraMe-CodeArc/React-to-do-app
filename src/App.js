@@ -9,11 +9,14 @@ import './App.css';
 // import mali from './assets/mali.png';
 // import CricketDemo from './cricketpct';
 // import Hooks from './Hook';
-import Card from './Card';
+// import Card from './Card';
 
 function App() {
   
   // const numArray = [1,2,3,4,5];
+  // const CardSet = numArray.map((num)=>{
+  //   return <Card number={num} />
+  // });
   // const sqrtArray = numArray.map((num)=>{
   //   return (num**2);
   // })
@@ -21,7 +24,7 @@ function App() {
 
   return (
     <div>
-      <Card />
+      {/* <CardSet /> */}
 
 
 
