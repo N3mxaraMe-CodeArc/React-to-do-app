@@ -10,7 +10,7 @@ import React from 'react';
 // import CricketDemo from './cricketpct';
 // import Hooks from './Hook';
 // import Card from './Card';
-import { Routes } from 'react-router-dom';
+// import { Route,Routes } from 'react-router-dom';
 
 function App() {
   
@@ -26,9 +26,7 @@ function App() {
   
 
   return(
-    <Routes>
-      
-    </Routes>
+    <div></div>
   );
 };
 
