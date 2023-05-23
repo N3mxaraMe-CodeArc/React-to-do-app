@@ -24,7 +24,7 @@ function App() {
       <CricketDemo photo={mali} name="LAsith Malinga" Score="395" inningScore="27.8" /> */}
 
       {/* <Hooks /> */}
-      <Card/>
+      <Card />
     </div>
   );
 }
