@@ -1,0 +1,23 @@
+.card-bg{
+    background-color: cadetblue;
+    height: 40vh;
+    width: 30vh;
+    padding: 2vw;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items : center;
+    margin: 200px;
+}
+
+.card-num{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2vh;
+
+}
+
+.card-info{
+    text-align: center;
+}
