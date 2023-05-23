@@ -12,9 +12,12 @@ import './App.css';
 // import Card from './Card';
 
 function App() {
+  const numArray = [1,2,3,4,5];
+
   return (
     <div>
-      const numArray = [1,2,3,4,5];
+      
+
 
 
 
