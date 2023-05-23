@@ -8,7 +8,8 @@ import './App.css';
 // import sanga from './assets/sanga.png';
 // import mali from './assets/mali.png';
 // import CricketDemo from './cricketpct';
-import Hooks from './Hook';
+// import Hooks from './Hook';
+import Card from './Card';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       <CricketDemo photo={sanga} name="Kumar Sangakkara" Score="3700" inningScore="97.8" />
       <CricketDemo photo={mali} name="LAsith Malinga" Score="395" inningScore="27.8" /> */}
 
-      <Hooks />
+      {/* <Hooks /> */}
+      <Card/>
     </div>
   );
 }
