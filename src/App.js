@@ -9,11 +9,24 @@ import './App.css';
 // import mali from './assets/mali.png';
 // import CricketDemo from './cricketpct';
 // import Hooks from './Hook';
-import Card from './Card';
+// import Card from './Card';
 
 function App() {
   return (
     <div>
+      const numArray = [1,2,3,4,5];
+
+
+
+
+
+
+
+
+
+
+
+
       {/* <ToDoItem taskName='Task01' btnName='Done' btnColor='red' />
       <ToDoItem taskName='Task02' btnName='ToDo' btnColor='green' /> */}
       {/* <Cricketdet Name="Pathum Nissanka" innScore="29" score="768" avePercent="29.8" image={pathum} altText="Pathum Nissanka" /> */}
@@ -24,7 +37,7 @@ function App() {
       <CricketDemo photo={mali} name="LAsith Malinga" Score="395" inningScore="27.8" /> */}
 
       {/* <Hooks /> */}
-      <Card />
+      
     </div>
   );
 }
