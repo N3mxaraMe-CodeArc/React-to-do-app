@@ -1,14 +1,12 @@
 import "./Card.css";
 
-const Card = ({ number }) => {
+const Card = ({ name,Age,image }) => {
   return (
     <div className="card-bg">
-      <div className="card-num">{number}</div>
-      <div className="card-info"></div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente enim
-      optio asperiores architecto, cupiditate amet, molestias modi impedit
-      labore qui accusamus, soluta minus dolorem iste nobis natus recusandae!
-      Voluptate, excepturi?
+        <img src={image} alt="" />
+        <div><h2>{name}</h2></div>
+        <div><h2>Age : {Age}</h2></div>
+        <div><h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, doloremque.</h5></div>
     </div>
   );
 };

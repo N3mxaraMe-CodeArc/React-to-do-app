@@ -6,10 +6,10 @@ import React from 'react';
 // import Cricketdet from './Cricketde';
 // import pathum from './assets/pathum.png';
 // import sanga from './assets/sanga.png';
-// import mali from './assets/mali.png';
+import mali from './assets/mali.png';
 // import CricketDemo from './cricketpct';
 // import Hooks from './Hook';
-// import Card from './Card';
+import Card from './Card';
 
 function App() {
   
@@ -20,6 +20,8 @@ function App() {
   // const sqrtArray = numArray.map((num)=>{
   //   return (num**2);
   // })
+
+  
   
 
   return (
@@ -36,7 +38,7 @@ function App() {
 
 
 
-      {/* <CardSet /> */}
+      <Card image={mali} name="Lasith Malinga" Age="38"/>
       {/* <ToDoItem taskName='Task01' btnName='Done' btnColor='red' />
       <ToDoItem taskName='Task02' btnName='ToDo' btnColor='green' /> */}
       {/* <Cricketdet Name="Pathum Nissanka" innScore="29" score="768" avePercent="29.8" image={pathum} altText="Pathum Nissanka" /> */}
