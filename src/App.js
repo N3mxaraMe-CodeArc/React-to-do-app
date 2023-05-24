@@ -1,4 +1,7 @@
 import React from 'react';
+import axios from 'axios';
+import { Axios } from 'axios';
+import { useState } from 'react';
 // import ToDo from './containers/ToDo.js';
 // import './App.css';
 // import Mapping from './Mapping'
@@ -13,6 +16,14 @@ import React from 'react';
 // import { Route,Routes } from 'react-router-dom';
 
 function App() {
+
+
+  const [Data, setData] = useState();
+
+  setData(
+    axios.get("https://api.restfull-api.dev/objects/7")
+    
+  )
   
   // const numArray = [1,2,3,4,5];
   // const CardSet = numArray.map((num)=>{
