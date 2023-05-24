@@ -28,7 +28,7 @@ function App() {
   return(
     <div className='background'>
       <div className='form-title'>
-        <form action=""></form>
+        
       </div>
     </div>
   );
